@@ -10,4 +10,4 @@ def test_get_val_valid(fixture_dict):
 
 def test_get_val_empty_dict():
     assert get_val({}, 'surname', 'Who is it?') == 'Who is it?'
-    assert get_val({}, 'surname',) == 'git'
+    assert get_val({}, 'surname') == 'git'
